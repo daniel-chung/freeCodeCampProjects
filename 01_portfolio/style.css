@@ -1,0 +1,105 @@
+.nav-hover {
+  background-color: #E0E0E0;
+  font-size: 15px;
+}
+
+.myNav {
+  padding: 0 0 0 13px;
+}
+
+.header {
+  background-color: #BBBBBB;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+}
+
+.home {
+  background-image: url("https://2217f7aafbf657bb1d21d10e272b08779804d809-www.googledrive.com/host/0B5Ig7cnxTQcgYTMtR1J6VWdFQlk");
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+
+.home-box {
+  padding: 200px 100px 100px 100px;
+  text-align: center;
+}
+
+.about {
+  background-image: url("https://26bc23359023e0de655dc04962a1607089b176dc-www.googledrive.com/host/0B5Ig7cnxTQcgeUNjSXlTWGZGbVU");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 1000px;
+}
+
+.about-box {
+  padding: 100px;
+  color: white;
+}
+
+.portfolio {
+  background-color: #C9FFFD;
+  width: 100%;
+  height: 1000px;
+}
+
+.portfolio-box {
+  padding: 100px;
+}
+
+.contact {
+  background-image: url("https://eeea89f2211459ec00b4b706e37b1ae1250d9809-www.googledrive.com/host/0B5Ig7cnxTQcgR0NWWlVLUG1QS1k");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+}
+
+.contact-box {
+  padding: 100px;
+  color: #FFFFFF;
+  text-align: right;
+}
+
+.footer {
+  background-color: #D0CFCF;
+  border: 0;
+  padding: 5px 50px 15px 50px;
+}
+
+.footer-links {
+  font-size: 15px;
+  margin: 15px;
+}
+
+.left-text {
+  width: 50%;
+  text-align: left;
+  font-size: 14px;
+}
+
+.horizontalLine1 {
+  background: #FFFFFF;
+  border: 0;
+  height: 3px;
+}
+
+.large-header {
+  font-size: 60px;
+}
+
+.sub-title {
+  font-size: 25px;
+}
+
+.outline-text {
+  color: #3D3D3D;
+  text-shadow: 1px 1px 0 #FFF, -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 0 1px 0 #FFF, 1px 0 0 #FFF, 0 -1px 0 #FFF, -1px 0 0 #FFF;
+}
