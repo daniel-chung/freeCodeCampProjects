@@ -1,0 +1,55 @@
+body {
+  background-image: url("https://caba24b86e451aed44de8f9a459d0f683480db4b-www.googledrive.com/host/0B5Ig7cnxTQcgclpnMmNsVmpNNHc");
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.main {
+  text-align: center;
+}
+.title {
+  font-size: 50px;
+  font-family: cursive;
+  text-shadow: -4px 4px 4px #888888;
+}
+.description {
+  font-size: 20px;
+  width: 620px;
+  margin: 20px auto 0 auto;
+  text-align: left;
+  font-family: "EB Garamond", "Times New Roman", Times, serif;
+}
+
+.quote-text {
+  font-size: 25px;
+  font-family: "EB Garamond", "Times New Roman", Times, serif;
+}
+.author-text {
+  font-size: 25px;
+  font-style: italic;
+  font-family: "EB Garamond", "Times New Roman", Times, serif;
+}
+
+.quote {
+  background-color: #ECF9F0;
+  width: 600px;
+  margin: 10px auto 10px auto;
+  padding: 25px;
+  border-radius: 25px;
+  box-shadow: -9px 9px 10px #888888;
+
+}
+
+.button {
+  background-color: #ECF9F0;
+  width: 150px;
+  margin: 10px 10px 10px 10px;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-family: cursive;
+  box-shadow: -6px 6px 6px #888888;
+}
+.button-hover{
+  background-color: #99E5B2;
+}
