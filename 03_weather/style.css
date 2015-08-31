@@ -1,0 +1,64 @@
+body {
+  background-image: url("http://www.sinosociety.com/wp-content/uploads/2014/04/7853985380_12eeb76075_b1.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center bottom;
+}
+
+body {
+  text-align: center;
+}
+
+h1.title {
+  font-size: 40px;
+  color: #E2FEF9;
+  text-shadow: 2px 2px 2px #444444;
+  font-family: sans-serif;
+}
+
+p.temp {
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 2px #444444;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 0 0 10px 0;
+  margin: 20px auto 0 auto;
+}
+
+.button {
+  background-color: rgba(226, 254, 249, 0.8);
+  margin: 20px 0 0 0;
+  padding: 10px;
+  height: 75px;
+  border-radius: 5px;
+  border-style: none;
+  border-color: #666666;
+  font-size: 17px;
+  box-shadow: 2px 2px 2px #444444;
+}
+
+.unit {
+  background-color: rgba(0, 0, 0, 0);
+  border-style: none;
+  width: 50px;
+  font-size: 40px;
+  color: white;
+  text-shadow: 2px 2px 2px #444444;
+  font-weight: bold;
+  font-family: sans-serif;
+  padding: 5px 5px 5px 0;
+  margin: 20px auto 0 auto;
+}
+
+span {
+  margin: -15px;
+}
+
+.unit-hover {
+  color: #71B3FF;
+}
+
+img#icon {
+  margin: 10px 0 -18px 0;
+}
