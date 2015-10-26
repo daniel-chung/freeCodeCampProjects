@@ -1,0 +1,86 @@
+body {
+  background-color: #D9F5FF;
+}
+
+.main{
+  background-color: #FFFFFF;
+  position: fixed;
+  position: absolute;
+  left: 50%;
+  margin: 20px 0 20px -150px;
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #BBB;
+  border-radius: 10px;  
+}
+
+#pill {
+  text-align: center;
+  width: 91px;
+}
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, 
+.nav-pills > li.active > a:focus {
+  color:white;
+  background-color:#90DAFF;
+}
+
+.search {
+  height: 30px;
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid #BBB;
+  margin: 15px 0 15px 0;
+  padding: 5px;
+}
+.divider {
+  border-bottom: 1px solid #BBB;
+  margin-bottom: 5px;
+}
+
+.user-card {
+  /*border-radius: 10px;  
+  margin: 2px 0 2px 0;
+  border: 1px solid #BBB;
+  background-color: #D9F5FF;*/
+  height: 70px;
+  padding: 10px;
+}
+
+.avatar {
+  height:50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: gray;
+}
+.user-name {
+  font-size: 15px;
+}
+
+.tag-line {
+  font-size: 12px;
+  margin: -10px 0 0 50px;
+  color: #999;
+}
+
+button {
+  float: right;
+}
+a.link {
+  text-decoration: none;
+  color: #70BDE8;
+}
+ul.list {
+  padding:0;
+  margin:0;
+  list-style-type: none;
+}
+.status {
+  float: right;
+  margin: 15px 0 0 0;
+}
+.glyph-online {
+  color: #9AFF9A;
+}
+.glyph-offline {
+  color: #FF907C;
+}
