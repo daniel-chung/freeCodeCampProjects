@@ -1,0 +1,60 @@
+body {
+  background-color: #CCC;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+h2 {
+  font-size: 35px;
+  margin: -20px 0 25px 0;
+  text-align: center;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+.posts {
+  margin: auto;
+  text-align:center;
+  width: 90%
+}
+.post {
+  border-radius: 15px 15px 0 0;
+  width: 200px;
+  height: 290px;
+  margin: 10px;
+  color: #777;
+  background-color: white;
+  text-align:left;
+  display: inline-block;
+}
+img {
+  border-radius: 15px 15px 0 0;
+  width: 200px;
+}
+.discuss {
+  margin: -5px 0 0 0;
+  float: right;
+  background-color: #D9F5FF;
+  color: #777;
+  border: none;
+  border-radius:5px;
+  font-size: 12px;
+  font-weight: 800;
+}
+.post-text {
+  margin: 5px;
+  font-size: 13px;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+.post-title {
+  font-size: 14px;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  font-weight: 900;
+  margin-top: 8px;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
