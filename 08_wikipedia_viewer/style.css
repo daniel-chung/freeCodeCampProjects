@@ -1,0 +1,107 @@
+body {
+  background-color: #60047A;
+}
+
+.results {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.card {
+  background-color: #E2E2E2;
+  border-left: 5px solid #60047A;
+  border-right: 5px solid #60047A;
+  margin: 10px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.card-title {
+  margin: 0 0 5px 0;
+  font-size: 19px;
+}
+
+.card-desc {
+  font-size: 14px;
+}
+
+.start {
+  margin: -2px 0 0 -2px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.searchBar {
+  width: 30px;
+  /*200px*/
+  
+  height: 30px;
+  border: 3px solid #F2671F
+  /*orange*/
+  
+  ;
+  border-radius: 30px;
+  padding: 1px;
+  font-size: 18px;
+  position: relative;
+  left: 50%;
+  margin: 30px 0 30px -15px;
+}
+
+input#searchTerm {
+  background-color: #60047A;
+  color: #FFF;
+  width: 160px;
+  height: 26px;
+  margin: 1px 0 2px 14px;
+  font-size: 18px;
+  border: none;
+}
+
+input#searchTerm:focus {
+  outline: none;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.prompt,
+.updatePage {
+  text-align: center;
+  color: #F2671F
+  /* orange */
+  
+  ;
+  font-size: 18px;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.title {
+  position: absolute;
+  color: #9C0F5F
+  /* orange */
+  
+  ;
+  font-size: 20px;
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+}
+
+.hover {
+  border-left: 5px solid #F2671F;
+}
+
+.links {
+  color: inherit;
+  text-decoration: none;
+}
