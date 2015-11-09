@@ -54,7 +54,8 @@ $(document).ready(function() {
   function displayWeather(latitude, longitude) {
     var request = new XMLHttpRequest();
     var method = 'GET';
-    var url = 'http://api.openweathermap.org/data/2.5/weather?lat=' + latitude + '&lon=' + longitude + '&units=' + unitConvert(unit)[1];
+    var url = 'http://api.openweathermap.org/data/2.5/weather?lat=' + latitude +
+              '&lon=' + longitude + '&appid=0d07b4bdb0d5819e22d7e88eb08f5ed9&units=' + unitConvert(unit)[1];
     var async = true;
     request.open(method, url, async);
     request.onreadystatechange = function() {
@@ -72,7 +73,7 @@ $(document).ready(function() {
         $('.temp-val').html(temp);
         $('.unit').html(unitConvert(unit)[0]);
         $('.wind').html(wind);
-        $("#icon").attr("src", "https://openweathermap.org/img/w/" + imgIcon + ".png");
+        $("#icon").attr("src", "http://openweathermap.org/img/w/" + imgIcon + ".png");
 
       }
     };
